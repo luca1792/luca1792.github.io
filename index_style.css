@@ -30,7 +30,7 @@ a{
     box-shadow:2px 2px 5px rgba(0,0,0,0.5),inset -22px 22px 70px rgba(0,0,0,0.3);
     border-radius:3vh;
 }
-.button:hover{
+.button:active{
     margin:1.5vh auto 0 auto;
     height:7vh;
     width:90%;
