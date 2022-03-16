@@ -78,12 +78,12 @@ $("#bocca").css("width","20px");
 $("#bocca").css("background-color","transparent")
 $("#bocca").css("border-bottom-width","10px")
 })
-$("#container").on("touchmove",function(){
+/*$("#container").on("touchmove",function(){
      touch=event.targetTouches[0];
      containerX=touch.pageX-container.clientWidth/2;
 containerY=touch.pageY-container.clientHeight/2;
 $("#container").css("top",containerY);
 $("#container").css("left",containerX);
 $("#container").css("margin","0");
-})
+})*/
   
