@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<html>
+    <head>
+        <title>Corvo</title>
+    </head>
+
+    <body>
+
+    <div id="ground">  
+     
+     <div id="pietra1"></div>
+     <div id="pietra2">🐜</div>
+    </div>
+
+    <div id="container">
+        <div id="sole">☀️</div>
+        <div id="n1">☁️</div>
+        <div id="n2">☁️</div>
+        <div id="n3">☁️</div>
+        <div id="tree">🌳</div>  
+    </div>
+    
+    <div id="pos" onclick="jump()"> 
+        <div id="corvo">
+            <div id="head">
+                <div id="occhiodx">  
+                    <div id="pupilladx">
+                        <div id="riflessodx"></div>
+                    </div> 
+                <div id="palpebradx"></div> 
+                </div>
+                <div id="occhiosx">
+                    <div id="pupillasx">
+                        <div id="riflessosx"></div>
+                    </div>
+                <div id="palpebrasx"></div>
+                </div>
+                <div id="becco">
+                    <div id="foro"></div>
+                </div>     
+            </div>
+    
+            <div id="corpo">    
+                <div id="alasx">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div id="coda">
+                    <div id="piuma1"></div>
+                    <div id="piuma2"></div>
+                    <div id="piuma3"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="zampe">
+        <div id="zampasx">
+            <div id="z1"></div>
+            <div id="z2"></div>
+            <div id="z3"></div>
+        </div>
+        <div id="zampadx">
+            <div id="z4"></div>
+            <div id="z5"></div>
+            <div id="z6"></div>
+        </div>
+        </div>
+    </div>
+
+    </body>
+    <script>
+        function njump(){
+            pos.style.animation="";
+            zampasx.style.animation="top1 2s infinite";
+            zampadx.style.animation="top 2s infinite";
+        }
+        function jump(){
+            let pos=document.getElementById("pos");
+            let zampasx=document.getElementById("zampasx");
+            let zampadx=document.getElementById("zampadx");
+            pos.style.animation="jump 1s 1";
+            zampasx.style.animation="jumpz1 1s 1";
+            zampadx.style.animation="jumpz 1s 1";
+            myTo=setTimeout(njump,1000)
+        
+        }
+    </script>
+</html>
