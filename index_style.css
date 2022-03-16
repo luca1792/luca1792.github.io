@@ -1,5 +1,6 @@
 body {
     border-width: 1px;
+    overscroll-behavior: contain;
 }
 *{
     border-width: 1px;
