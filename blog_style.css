@@ -1,0 +1,364 @@
+body {
+    border-width: 1px;
+}
+*{
+    border-width: 1px;
+}
+.container{ 
+    margin:0 auto;
+    position:relative ;
+    top:200px;
+    height:auto;
+    width:200px;
+}
+.uovo{
+
+    position:relative;
+    top:0px;
+    display:flex ;
+    overflow:visible;
+    height:200px;
+    width:200px;
+    transform:scaleX(0.75) rotate(45deg) ;
+    z-index:50;
+    animation:top 1s infinite;
+}
+@keyframes top{
+    0%{}
+    50%{top:+2px}
+    100%{}
+}
+.uovo:before{
+    position:relative;
+    content:" ";
+    left:0px;
+    top:0px;
+    height:200px;
+    width:200px;
+    background-color:rgba(233,182,137,1);
+    border-radius:45% 50% 50% 50%;
+    box-shadow:inset -5px -5px 15px rgba(0,0,0,0.5);
+} 
+#occhi{
+    height:70px;
+    width:150px;
+    display:flex;
+    position:absolute;
+    top:50px;
+    left:40px;
+    z-index:60; 
+    animation:topocchi 1s infinite ;
+}
+@keyframes topocchi{
+    0%{}
+    50%{top:52px}
+    100%{}
+}
+#occhiodx{
+    overflow:hidden;
+    margin-left:10%;
+    height:100%;
+    width:100%;
+    border-radius:50%;
+    background-color:white;
+    box-shadow:inset -2px -2px 7px rgba(0,0,0,0.3);
+}
+#occhiosx{
+    overflow:hidden ;
+    margin-left:10%;
+    margin-right:10%;
+    height:100%;
+    width:100%;
+    border-radius:50%;
+    background-color:white;
+    box-shadow:inset -2px -2px 7px rgba(0,0,0,0.3);
+}
+.pupilla{
+    height:50px;
+    width:50px;
+    background-color:black;
+    position:relative;
+    display:flex;
+    left:2px;
+    top:10px;
+    border-radius:50%;
+    transform:scaleX(0.6);
+    animation:rem 10s infinite;
+    transition:all 0.3s;
+    }
+@keyframes rem{
+    0%{left:2px;height:50px;width:50px;}
+    2%{left:2px;height:50px;width:50px;}
+    4%{left:2px;height:50px;width:50px;}
+    20%{left:2px;height:50px;width:50px;}
+    22%{left:0px;height:48px;width:48px;}
+    24%{left:0px;height:48px;width:48px;}
+    40%{left:0px;height:48px;width:48px;}
+    42%{left:2px;height:50px;width:50px;}
+    44%{left:2px;height:50px;width:50px;}
+    60%{left:2px;height:50px;width:50px;}
+    62%{left:6px;height:48px;width:48px;}
+    64%{left:6px;height:48px;width:48px;}
+    80%{left:6px;height:48px;width:48px;}
+    82%{left:2px;height:50px;width:50px;}
+    84%{left:2px;height:50px;width:50px;}
+    100%{left:2px;height:50px;width:50px;}
+    
+}
+.pupilla:before{
+    position:relative;
+    left:5px;
+    top:5px;
+    height:15px;
+    width:15px;
+    border-radius:50%;
+    background-color:white;
+    content:" ";
+}
+.palpebra{
+    position:relative;
+    top:-110px;
+    height:70px;
+    width:55px;
+    background-color:rgba(233,182,137,1);
+    animation:palpebre 3s infinite ;
+
+}
+@keyframes palpebre{
+    0%{top:-120px}
+    90%{top:-120px}
+    95%{top:-50px;}
+    100%{top:-120px;}
+}
+.gambe{
+    item-align:center;
+    text-align:center;
+    position:absolute;
+    top:180px;
+    display:flex;
+    height:100px;
+    width:200px;
+    overflow:hidden;
+    
+}
+#gambasx{
+    
+    display:flex;
+    position:relative;
+    top:-10px;
+    margin-left:25%;;
+    height:40px;
+    width:10px;
+    border-style:solid;
+    border-right-color:black;
+    border-left-color:transparent;
+    border-top-color:transparent;
+    border-bottom-color:transparent;
+    border-width:10px;
+    border-radius:100%;
+    content:" ";
+    z-index:60;
+    
+}
+#gambasx:after{
+    position:absolute;
+    bottom:-15px;
+    content:" ";
+    background-color:rgba(50,50,50,1);
+    height:30px;
+    width:50px;
+    border-radius:15px 30px 5px 0;
+    border-style:solid;
+    border-color:black;
+    animation:piedesx 1s infinite;
+    transform-origin:0 100%;
+    border-width: 1px;
+    
+}
+@keyframes piedesx{
+    0%{transform:rotate(-5deg)}
+    50%{transform:rotate(0deg)}
+    100%{transform:rotate(-5deg);}
+    }
+#gambadx{
+    position:relative;
+    top:-10px;
+    margin-top:0;
+    margin-left:12px;
+    margin-right:0;
+    height:40px;
+    width:10px;
+    border-style:solid;
+    border-right-color:black;
+    border-left-color:transparent;
+    border-top-color:transparent;
+    border-bottom-color:transparent;
+    border-width:10px;
+    border-radius:100%;
+    content:" ";
+    
+    
+}
+#gambadx:after{
+    position:absolute;
+    bottom:-15px;
+    content:" ";
+    background-color:rgba(50,50,50,1);
+    height:30px;
+    width:50px;
+    border-radius:15px 30px 5px 0;
+    border-style:solid;
+    border-color:black;
+    border-width: 1px;
+    animation:piededx 1s infinite;
+    transform-origin:0 100%;
+}
+@keyframes piededx{
+    0%{transform:rotate(-5deg)}
+    50%{transform:rotate(-0deg)}
+    100%{transform:rotate(-5deg);}
+}
+.braccia{
+    item-align:center;
+    text-align:center;
+    position:absolute;
+    top:130px;
+    display:flex;
+    height:100px;
+    width:200px;
+    overflow:visible;
+    animation:topbraccia 1s infinite;
+    
+}
+@keyframes topbraccia{
+    0%{}
+    50%{top:132px}
+    100%{}
+}
+#bracciosx{
+    
+    display:flex;
+    position:relative;
+    top:-10px;
+    margin-left:12%;
+    height:50px;
+    width:10px;
+    border-style:solid;
+    border-right-color:transparent;
+    border-left-color:black;
+    border-top-color:transparent;
+    border-bottom-color:transparent;
+    border-width:10px;
+    border-radius:100%;
+    content:" ";
+    z-index:60;
+    animation:rotate 20s infinite;
+    transform-origin:15px 0px;
+}
+@keyframes rotate{
+    0%{}
+    2%{transform:rotateX(180deg)}
+    4%{transform:rotateX(180deg) rotate(20deg);}
+    6%{transform:rotateX(180deg) rotate(-20deg);}
+    8%{transform:rotateX(180deg) rotate(20deg);}
+    10%{transform:rotateX(180deg) rotate(-20deg);}
+    12%{transform:rotateX(180deg) rotate(20deg);}
+    14%{transform:rotateX(180deg)}
+    16%{transform:rotateX(0deg)}
+    100%{}
+}
+#bracciosx:after{
+    position:absolute;
+    left:-10px;
+    bottom:-15px;
+    content:" ";
+    background-color:black;
+    height:20px;
+    width:20px;
+    border-radius:10px;
+}
+#bracciodx{
+    
+    position:relative;
+    top:-10px;
+    margin:0;
+    margin-top:0;
+    margin-left:47%;
+    margin-right:0;
+    height:50px;
+    width:10px;
+    border-style:solid;
+    border-right-color:black;
+    border-left-color:transparent;
+    border-top-color:transparent;
+    border-bottom-color:transparent;
+    border-width:10px;
+    border-radius:100%;
+    content:" ";
+    z-index:49;
+    animation:rotate3 20s infinite;
+    transform-origin:15px 0px;
+    
+}
+@keyframes rotate2{
+    0%{}
+    2%{transform:rotateX(180deg)}
+    4%{transform:rotateX(180deg) rotate(-20deg);}
+    6%{transform:rotateX(180deg) rotate(0deg);}
+    8%{transform:rotateX(180deg) rotate(-20deg);}
+    10%{transform:rotateX(180deg) rotate(0deg);}
+    12%{transform:rotateX(180deg) rotate(-20deg);}
+    14%{transform:rotateX(180deg)}
+    16%{transform:rotateX(0deg)}
+    100%{}
+}
+@keyframes rotate3{
+    0%{}
+    2%{transform:rotateX(-20deg) rotate(-10deg)}
+    4%{transform:rotateX(-20deg)rotate(-10deg)}
+    14%{transform:rotateX(-20deg)rotate(-10deg)}
+    16%{transform:rotateX(0deg)}
+    100%{}
+}
+#bracciodx:after{
+    position:absolute;
+    left:0px;
+    bottom:-15px;
+    content:" ";
+    background-color:black;
+    height:20px;
+    width:20px;
+    border-radius:10px;
+}
+#bocca{
+    position:absolute ;
+    top:125px;
+    left:50%;
+    height:10px;
+    width:20px;
+    border-radius:50%;
+    border-style:solid;
+    border-width:0;
+    border-bottom-width:10px;
+    z-index:61;
+    animation:bocca 1s infinite;
+    display:flex;
+    background-color:;
+    transition:height,width 0.5s;
+    
+}
+@keyframes bocca{
+    0%{}
+    50%{top:127px}
+    100%{}
+}
+#bocca:after{
+    content:" ";
+    height:3px;
+    width:89%;
+    background-color:white;
+    position:relative;
+    top:11px;
+    left:1px;
+    border-radius:0 0 2px 1px ;
+}
