@@ -1,16 +1,17 @@
 *{
-    user-select: none;
+    user-select:none;
     font-family:Arial;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+a{
+    text-decoration:none;
+}
+
 body {
     margin:0;
     background-image: linear-gradient(to bottom right ,#8C9EFF, #7986CB);
     background-size:100vw 100vh;
     background-repeat:no-repeat ;
-}
-a{
-    text-decoration:none;
 }
 #nav{
     position:relative ;
@@ -19,13 +20,16 @@ a{
     background-color:rgba(63, 81, 181,0.5);
     margin:30vh auto;
     display:grid;
-    animation:open 1s 1;
+    animation:open 3s 1;
     backdrop-filter:blur(50px);
     border-radius:4vh;
 }
 @keyframes open{
-    from{ margin:10vh auto; height:0px; width:0px; opacity:0;}
-    to{ margin:30vh auto; height:20vh; width:80vw; opacity:1;}
+    0%{ margin:10vh auto; height:0px; width:0px; opacity:0;}
+    20%{ margin:30vh auto; height: 10vh; width:10vh; border-radius:5vh; opacity:1;}
+    30%{ margin:30vh auto; height: 10vh; width:10vh; border-radius:5vh; opacity:1;}
+    75%{ margin:30vh auto; height: 20vh; width:80vw; border-radius:5vh; opacity:1;}
+    100%{ margin:30vh auto; height:20vh; width:80vw; opacity:1;}
     
 }
 .button{ 
@@ -39,7 +43,7 @@ a{
     line-height:7vh;
     box-shadow:2px 2px 5px rgba(0,0,0,0.5),inset -22px 22px 70px rgba(0,0,0,0.3);
     border-radius:3vh;
-    animation:openbtn 2s 1;
+    animation:openbtn 3s 1;
     animation-delay:0s;
     opacity:1;
 }
