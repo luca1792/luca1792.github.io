@@ -3,6 +3,7 @@ body {
     overscroll-behavior: contain;
     background-image: url("DEFINITIVO.png");
     background-size: contain;
+    background-color: red;
 }
 *{
     border-width: 1px;
