@@ -4,6 +4,9 @@ body {
     background-size:100vw 100vh;
     background-repeat:no-repeat ;
 }
+a{ 
+    text-decoration:none;
+}
 #nav{
     position:relative ;
     height:20vh;
