@@ -46,6 +46,7 @@ body {
     animation:openbtn 3s 1;
     animation-delay:0s;
     opacity:1;
+    transition:all 0.2s;
 }
 @keyframes openbtn{
     0%{opacity:0;}
