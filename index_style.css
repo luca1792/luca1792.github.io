@@ -1,3 +1,6 @@
+*{
+    user-select: none;
+}
 body {
     margin:0;
     background-image: linear-gradient(to bottom right ,#8C9EFF, #7986CB);
@@ -25,7 +28,7 @@ a{
     text-align:center;
     line-height:7vh;
     box-shadow:2px 2px 5px rgba(0,0,0,0.5),inset -22px 22px 70px rgba(0,0,0,0.3);
-    border-radius:20px;
+    border-radius:3vh;
 }
 .button:hover{
     margin:1.5vh auto 0 auto;
