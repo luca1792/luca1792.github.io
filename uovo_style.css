@@ -2,9 +2,11 @@ body {
     border-width: 1px;
     overscroll-behavior: contain;
     background-color: #304FFE;
+    margin:0;
 }
 *{
     border-width: 1px;
+    font-family:Arial;
 }
 .container{ 
     margin:0 auto;
