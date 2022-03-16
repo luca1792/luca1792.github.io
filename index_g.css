@@ -5,6 +5,7 @@
     width:100vw;
     background-color:rgba(63, 81, 181,0.5);
     backdrop-filter:blur(50px);
+    z-index:9999;
 }
 #home{
     height:6vh;
