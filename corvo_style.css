@@ -36,7 +36,7 @@ body {
 }
 #ground{
     position:absolute;
-    top: 50%;
+    top: 50vh;
     margin:0;
     background-color:green;
     height:50vh;
