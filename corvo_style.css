@@ -71,7 +71,7 @@ body {
 #tree{
     position:absolute ;
     top:43vh;
-    font-size: 50px;
+    font-size: 51px;
     text-align:center;
     z-index:14;
     animation:leftt 120s infinite ;
