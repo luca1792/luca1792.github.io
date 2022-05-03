@@ -7,6 +7,7 @@ document.body.style.setProperty("--color2",color[random][1]);
 document.body.style.setProperty("--color3",color[random][2]);
 document.body.style.setProperty("--color4",color[random][3]);
 document.body.style.setProperty("--color5",color[random][4]);
+document.body.style.backgroundColor="rgb(200,100,100)";
 timeIn=5;
 numberW=$(".number").innerWidth();
 numberT=$(".number").offset();
