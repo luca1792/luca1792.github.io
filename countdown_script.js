@@ -4,7 +4,7 @@ let color=[["#E91E63","#EC407A","#FF4081", "#F8BBD0", "#C2185B"],["#3F51B5","#5C
 let random=Math.floor(Math.random()*5);
 document.body.style.setProperty("--color1","#e66");
 document.body.style.setProperty("--color2","#e44");
-document.body.style.setProperty("--color3","#a55);
+document.body.style.setProperty("--color3","#a55");
 document.body.style.setProperty("--color4",color[random][3]);
 document.body.style.setProperty("--color5",color[random][4]);
 document.body.style.backgroundColor="rgb(200,100,100)";
