@@ -31,7 +31,7 @@ body {
     color:rgb(255,180,180);
     position:absolute;
     top:200px;
-    transform:translate(400px);
+    transform:translate(100vw);
     animation:;
     animation-fill-mode:forwards;
 }
@@ -44,7 +44,7 @@ body {
     color:rgb(210,210,210);;
     position:absolute;
     top:200px;
-    transform:translate(400px);
+    transform:translate(100vw);
     animation:;
     animation-fill-mode:forwards;
     
@@ -57,21 +57,21 @@ body {
     color:rgb(255,255,255);
     position:absolute;
     top:200px;
-    transform:translate(400px);
+    transform:translate(100vw);
     animation:;
     animation-fill-mode:forwards;
     
 }
 @keyframes enter{
-    0%{transform:translate(400px);}
+    0%{transform:translate(100vw);}
     30%{transform:translate(0px);opacity:1;}
     60%{transform:translate(0px);opacity:1;}
     80%{opacity:0;}
-    99%{transform:translate(-400px); opacity:1;}
-    100%{transform:translate(-400px); opacity:1;}
+    99%{transform:translate(-100vw); opacity:1;}
+    100%{transform:translate(-100vw); opacity:1;}
 } 
 @keyframes enterGo{
-    0%{color:rgb(250,100,100);translate(400px);}
+    0%{color:rgb(250,100,100);translate(100vw);}
     30%{transform:translate(0px);opacity:1;}
     60%{transform:translate(0px);opacity:1;}
     80%{opacity:1;}
@@ -108,7 +108,7 @@ body {
     color:rgb(255,180,180);
     position:absolute;
     top:200px;
-    transform:translate(400px);
+    transform:translate(100vw);
     animation:;
     animation-fill-mode:forwards;
 }
@@ -121,7 +121,7 @@ body {
     color:rgb(210,210,210);;
     position:absolute;
     top:200px;
-    transform:translate(400px);
+    transform:translate(100vw);
     animation:;
     animation-fill-mode:forwards;
     
@@ -134,7 +134,7 @@ body {
     color:rgb(255,255,255);
     position:absolute;
     top:200px;
-    transform:translate(400px);
+    transform:translate(100vw);
     animation:;
     animation-fill-mode:forwards;
     
