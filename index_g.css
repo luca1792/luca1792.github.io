@@ -36,7 +36,7 @@ body {
     
 }
 @keyframes open{
-    to{ transform:translate(0)}
+    to{transform:translate(0)}
 }
 .button{ 
     font-size:7vh;
