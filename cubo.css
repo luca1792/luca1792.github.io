@@ -10,8 +10,8 @@ body {
     background-color:#fff;
     justify-content:center;
     align-items:center;
-    min-height:100vh;
-    max-height:100vh;
+    min-height:80vh;
+    max-height:80vh;
     display:flex;
     margin:0;
     perspective-origin:50% 20%;
