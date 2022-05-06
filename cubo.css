@@ -11,8 +11,8 @@ body {
     background-color:#fff;
     justify-content:center;
     align-items:center;
-    min-height:90vh; 
-    max-height:90vh;
+    min-height:85vh; 
+    max-height:85vh;
     display:flex;
     margin:0;
     perspective-origin:50% 20%;
